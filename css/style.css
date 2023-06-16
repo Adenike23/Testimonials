@@ -126,12 +126,13 @@ section p{
     }
 }
 @media screen and (max-width: 480px) {
-    #icon{
-        left: 7rem;
-    }
     section{
         display: block;
         padding: 12px;
+    }
+    section h3{
+        font-size: 15px;
+        font-weight: 100;
     }
     .Daniel_bio, .Jonathan_bio, .Jeanette_bio, .Patrick_bio, .Kira_bio{
     margin-bottom: 28px;
