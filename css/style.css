@@ -45,7 +45,6 @@ section h6{
     padding: 25px;
     position: relative;
     z-index: 1;
-    /* top: 40px; */
 }
 .Jonathan_bio{
     background-color: var(--Very_dark_grayish_blue);
@@ -77,6 +76,7 @@ section h3{
 section p{
     font-weight: 500;
     font-size: 25px;
+    margin-top: 17px;
 }
 #icon{
     position: absolute;
@@ -85,7 +85,50 @@ section p{
     top: 0;
     border-radius: 0;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1194px) {
+    section h3{
+        font-size: 14px;
+    }
+    section p{
+        font-size: 22px;
+    }
+    .Daniel_bio p, .Jonathan_bio p, .Jeanette_bio p, .Patrick_bio p, .Kira_bio p{
+        margin-top: 10px;
+    }
+    #icon{
+        left: 15rem;
+    }
+}
+@media screen and (max-width:992px) {
+    section{
+        gap: 6px;
+        padding: 1rem;
+    }
+    section h3{
+        font-size: 12px;
+        font-weight: 100;
+    }
+    section p{
+        font-weight: 500;
+        font-size: 20px;
+    }
+    #icon{
+        left: 11rem;
+    }
+    .Daniel_bio p, .Jonathan_bio p, .Jeanette_bio p, .Patrick_bio p, .Kira_bio p{
+        margin-top: 13px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #icon{
+        left: 8rem;
+        width: 40%;
+    }
+}
+@media screen and (max-width: 480px) {
+    #icon{
+        left: 7rem;
+    }
     section{
         display: block;
         padding: 12px;
@@ -93,4 +136,7 @@ section p{
     .Daniel_bio, .Jonathan_bio, .Jeanette_bio, .Patrick_bio, .Kira_bio{
     margin-bottom: 28px;
 }
+    #icon{
+        left: 9rem;
+    }
 }
