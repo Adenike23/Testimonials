@@ -125,6 +125,18 @@ section p{
         width: 40%;
     }
 }
+@media screen and (max-width: 576px) {
+    section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .Kira_bio{
+        grid-area: 3/1/4/4;
+    }
+    .Daniel_bio p, .Jonathan_bio p, .Jeanette_bio p, .Patrick_bio p, .Kira_bio p{
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
 @media screen and (max-width: 480px) {
     section{
         display: block;
